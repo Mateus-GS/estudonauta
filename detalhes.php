@@ -3,7 +3,7 @@
 <head>
 	<title>Título da página</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="estilo/estilo.css">
+	<link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -13,6 +13,7 @@
     ?>
 	<div id="corpo">
         <?php
+            include_once "topo.php";
             $id_cod = $_GET['cod'] ?? 0;
             $busca = $banco->query("select * from jogos where cod='$id_cod'");
         ?>
@@ -37,6 +38,7 @@
             ?>
         </table>
         <a href="index.php"><img src="icones/icoback.png"></a>
-	</div>
+    </div>
+    <?php include_once "rodape.php"; ?>
 <body>
 </html>
