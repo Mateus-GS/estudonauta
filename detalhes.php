@@ -25,7 +25,7 @@
                     if($busca->num_rows == 1) {
                         $reg = $busca->fetch_object();
                         $t = thumb($reg->capa);
-                        echo "<tr style='vertical-align:top'><td rowspan='3'><img src='$t' style='height: 400px; padding:10px; ;'>";
+                        echo "<tr style='vertical-align:top'><td rowspan='3'><img src='$t' style='height: 400px; padding:10px;'>";
                         echo "<td><h2>$reg->nome</h2>";
                         echo "Nota:". number_format($reg->nota, 1)."/10.0";
                         echo "<tr><td><p>$reg->descricao</p>";
