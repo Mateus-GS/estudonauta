@@ -24,7 +24,8 @@
                     }else{
                         while($reg =$busca->fetch_object()){
                             $resultado_caminho = thumb($reg->capa);
-                            echo "<tr><td>  <img style='width:50px' src='$resultado_caminho'/><td>$reg->nome";
+                            echo "<tr><td>  <img style='width:50px' src='$resultado_caminho'/>";
+                            echo "<td><a href='detalhes.php?cod=$reg->cod'>$reg->nome</a>";
                             echo "<td> Adm";
                         }
                     }

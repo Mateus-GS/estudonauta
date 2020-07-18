@@ -29,6 +29,9 @@ body {
 .listagem td:nth-child(3) {
     width: 90px;
 }
-.mini{
-    width:50px;
+.detalhes {
+    width:100%;
+}
+img.full {
+    height: 400px;
 }
