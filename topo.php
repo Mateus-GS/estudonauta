@@ -1,4 +1,4 @@
-<?php
-    echo "<header>";
-    echo "Entrar";
-    echo "</header>";
+<?php 
+echo"<p class='pequeno'>";
+echo "Entrar";
+echo"</p>";

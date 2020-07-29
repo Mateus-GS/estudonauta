@@ -1,7 +1,5 @@
-<?php
-    echo "<footer>";
-    echo "<p>Acessado por ".$_SERVER['REMOTE_ADDR'] ." em ". date('Y') ." </p>";
-    echo "<p>Desenvolvido por Mateus Gonçalves &copy 2020 </p>";
-    echo "</footer>";
-    $banco->close();
-?>
+﻿<?php
+	echo "<div style='text-align: center; font-size:10pt'>";
+	echo "<p>Acessado por ". $_SERVER['REMOTE_ADDR'] . " em ". date('d/M/Y');
+	echo "<br>Desenvolvido por Estudonauta &copy; 2018</p>";
+	echo "</div>";
