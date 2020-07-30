@@ -8,7 +8,7 @@ $chave = $_GET['c'] ?? "";
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="estilos/estilo.css"/>
+		<link rel="stylesheet" href="style/style.css"/>
 		<title>Listagem de Jogos</title>
 	</head>
 	<body>

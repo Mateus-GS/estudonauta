@@ -31,7 +31,7 @@ table.listagem tr {
 }
 
 table.listagem td {
-	#border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 	padding: 5px;
 }
 
@@ -52,10 +52,33 @@ table.listagem td:nth-child(3) {
 table.detalhes td {
 	vertical-align: top;
 	padding: 10px;
-	#border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 p.pequeno {
 	font-size: 8pt;
 	text-align: right;
+}
+div.sucesso {
+	padding: 7px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgba(41,241,1,0.308);
+	color:rgb(30,80,30);
+}
+
+div.aviso {
+	padding: 7px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgba(251,248,229);
+	color:rgb(134,110,,65);
+}
+
+div.erro {
+	padding: 7px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgba(239 ,223 ,222);
+	color:rgb(157,75,69);
 }

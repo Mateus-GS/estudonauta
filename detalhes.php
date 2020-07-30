@@ -6,13 +6,16 @@ require_once "includes/funcoes.php";
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="estilos/estilo.css"/>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="style/style.css"/>
+		<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
 		<title>Detalhes do Jogo</title>
 	</head>
 	<body>
 		<div id="corpo">
 			<?php include "topo.php"; ?>
+			<?php echo msg_sucesso('Arquivo arberto com sucesso');?>
+			<?php echo msg_aviso('Arquivo arberto com sucesso');?>
+			<?php echo msg_erro('Arquivo arberto com sucesso');?>
 			<table class="detalhes">
 			<?php
 				$cod = $_GET['cod'] ?? 0;
