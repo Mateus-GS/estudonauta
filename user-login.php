@@ -29,7 +29,14 @@ require_once "includes/funcoes.php";
 				if (is_null($u) || is_null($s)) {
 					require "user-login-form.php";
 				} else {
-					echo "Dados foram passados..";
+					$q = "SELECT usuario, nome, senha, tipo from usuarios WHERE usuario = '$u' LIMIT 1";
+					$busca = $banco->query($q);
+					if(!$busca)	{
+						echo msg_erro('Falha ao acessar o banco!');
+					} else {
+						$reg = $busca->fetch_object();
+						print_r($reg);
+					}
 				}
 			?>
 		</div>
