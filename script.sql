@@ -1,4 +1,4 @@
-CREATE DATABASE bd_games CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE bd_games2 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 
 
