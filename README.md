@@ -14,6 +14,11 @@ Após isso, se estiver no Windows entre no diretório abaixo:
 C:\xampp\htdocs\
 ```
 
-Agora clone o projeto dentro desse diretório e por fim no código tem um banco de dados script.sql importe ele e pronto o projeto já esta funcionando.
+Agora clone o projeto dentro desse diretório e por fim, no código tem um banco de dados script.sql importe ele e pronto o projeto já esta funcionando.
+Agora digite essa url no navegador e pronto o projeto já está funcionando no navegador.
+
+```
+http://localhost/estudonauta/
+```
 
 OBS: O Dump já vem com o CREATE DATABASE incluido então não precisa criar um banco antes para importar.
